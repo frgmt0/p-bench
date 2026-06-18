@@ -1,0 +1,36 @@
+# Tooling / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Secrets, never publish (defense in depth)
+penumbra_ops_data/
+vault/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+secret_seed*
+*.seed
+.env
+*.env
+
+# Partial open source: this repository publishes only README.md and results/.
+# The implementation (generators, harness, control plane, tests, tooling) is kept
+# private to preserve contamination resistance. See the README for why.
+/penumbra/
+/scripts/
+/tests/
+/pyproject.toml
+/uv.lock
+/DESIGN.md
+
+# Internal working files + regenerable per-type colour-blindness renders.
+results/**/_*.md
+results/**/*_deuteranopia.png
+results/**/*_protanopia.png
+results/**/*_tritanopia.png
