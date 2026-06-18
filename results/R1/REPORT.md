@@ -84,7 +84,7 @@ Haiku exhibits the weakest discrimination at d-prime = 1.72, and its 2x2 confusi
 
 Table 2 reports solve rate on solvable problems binned by witness length, the most universal cross-family difficulty axis. The figure below plots P(solve) against this difficulty proxy with each model's edge marked, using colour-blind-safe redundant marker and line-style encoding.
 
-[Figure 1](results/R1/ability_curve.png)
+![Figure 1](results/R1/ability_curve.png)
 
 ### Table 2. Solve rate by difficulty bucket (% of solvable in that bucket)
 
